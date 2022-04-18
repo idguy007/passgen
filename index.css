@@ -1,0 +1,129 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: gray;
+  font-family: Karla;
+}
+hr {
+  width: 446px;
+  height: 0px;
+  left: 52px;
+  margin-top: 18px;
+  border: 1px solid #2F3E53;
+}
+h1 {
+  width: 354px;
+  height: 80px;
+  margin-left: 52px;
+  margin-top: 118px;
+  font-family: 'Karla';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  line-height: 40px;
+  /* or 100% */
+  letter-spacing: -0.025em;
+  /* white */
+  color: #FFFFFF;
+}
+.hilite {
+  color: #10B981;
+}
+h2 {
+  width: 372px;
+  height: 28px;
+  margin-left: 52px;
+  margin-top: -25px;
+  /* text-xl/leading-7/font-normal */
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  /* identical to box height, or 140% */
+  /* Medium grey */
+  color: #D5D4D8;
+}
+.main-container {
+  width: 550px;
+  height: 550px;
+  margin-top: 30px;
+  margin-left: 30px;
+  background: #1F2937;
+  border: solid;
+  border-color: #10B981;
+  border-width: 2px;
+  border-radius: 10px;
+}
+.char-input {
+  font-family: 'Inter';
+  font-size: 16px;
+  color: white;
+  align-items: center;
+  width: 150px;
+  margin-left: 80px;
+  Height: 40px;
+  background-color: #273549;
+  text-align: center;
+}
+.pwd-btn {
+  flex: 1;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 9px 17px 9px 15px;
+  width: 223px;
+  height: 45px;
+  margin-left: 5px;
+  background: #10B981;
+  /* shadow/sm */
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  /* white */
+  color: #FFFFFF;
+  cursor: pointer;
+}
+.icon {
+  object-fit: contain;
+  height: 15px;
+  width: 15px;
+  margin-right: 10px;
+  /* white */
+}
+
+.password-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.password-box {
+  flex: 1;
+  height: 39px;
+  align-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 40px;
+  background: #273549;
+  border-radius: 6px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 32px;
+  padding-top: 5px;
+  /* identical to box height, or 200% */
+  text-align: center;
+  color: #5DEF92;
+}
+.empty-icon {
+  object-fit: contain;
+  height: 15px;
+  width: 20px;
+  margin-top: 12px;
+}
